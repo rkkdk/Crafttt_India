@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styling/cart.css" />
+    <link rel="stylesheet" href="styling/style.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <link rel="icon" type="image/x-icon" href="image assets/cards/crafttt-india-favicon-color.png" size = "">
+
+    <title>Crafttt India</title>
+    
+  <link rel="icon" type="image/x-icon" href="image assets/cards/crafttt-india-favicon-color.png">
+
+
+  </head>
+  <body>
+    <div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <div class="logo-img-txt">
+              <div class="logo-div">
+                <img
+                  class="logo-img"
+                  src="image assets/cards/crafttt-india-favicon-color.png"
+                  alt=""
+                />
+              </div>
+
+              <img
+                class="logo-txt"
+                src="image assets/cards/crafttt-india-high-resolution-logo-black-transparent.png"
+                alt=""
+              />
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#Home">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Product-Categories">Product Categories</a>
+               
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#About-Us">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact-Us">Contact Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#success"> Our Success</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search" class ="nav-search-container">
+              <div class="search-div me-2">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </div>
+              <button class="btn search-button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+
+            <div class="icon-div">
+              <i class="fa-regular fa-user"></i>
+              <i class="fa-regular fa-heart"></i>
+              <a href="#cart" class="shoping-bag">
+              <i class="fa-solid fa-cart-shopping " href="#cart"></i>
+              
+            </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="herosection">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img
+                class="herosection-img"
+                src="image assets/hero13.webp"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                class="herosection-img"
+                src="image assets/hero1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="herosection-img"
+                src="image assets/hero4.jpeg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="herosection-img"
+                src="image assets/hero17.avif"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                class="herosection-img"
+                src="image assets/hero3.jpeg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="cetegory-container">
+          <div class="category1 category" id="Product-Categories">
+            <h2>Hasti pattachitra</h2>
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item1">
+                  <img
+                    class="hp"
+                    src="image assets/hastpatchitra/patkala 1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Blue</h5>
+                    <h4 class="company-name">Sara's Creation</h4>
+                     
+                    <div class="price">
+                      <span class="current-price">Rs 3,000</span>
+                      <span class="Original-price">Rs 5000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item2">
+                  <img
+                    class="hp"
+                    src="image assets/hastpatchitra/patkala6.webp"
+                    class=""
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Yellow</h5>
+                    <h4 class="company-name">Sara's Creation</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 3,000</span>
+                      <span class="Original-price">Rs 5000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item3">
+                  <img
+                    class="hp"
+                    src="image assets/hastpatchitra/patkala4.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title"> Color-Red</h5>
+                    <h4 class="company-name">Sara's Creation</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 3,000</span>
+                      <span class="Original-price">Rs 5000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item4">
+                  <img
+                    class="hp"
+                    src="image assets/hastpatchitra/patkala 2.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Sky-Blue</h5>
+                    <h4 class="company-name">Sara's Creation</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 3,000</span>
+                      <span class="Original-price">Rs 5000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- category 1-->
+
+          <div class="category2 category">
+            <h2>Home Decor</h2>
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item5">
+                  <img
+                    class="hp"
+                    src="image assets/home decor/card1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Beatiful Cushion</h5>
+                    <h4  class="company-name">Priti's HandMades</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 1,000</span>
+                      <span class="Original-price">Rs 4000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container" >
+                <div class="card"id="item6">
+                  <img
+                    class="hp"
+                    src="image assets/home decor/card19.jpg"
+                    class=""
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Aesthetic Mirrors</h5>
+                    <h4  class="company-name">Mitali's Creation</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 1,000</span>
+                      <span class="Original-price">Rs 3,000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item7">
+                  <img
+                    class="hp"
+                    src="image assets/home decor/card4.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Woolen Wall Hanging</h5>
+                    <h4  class="company-name">Shivani's Crafts</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 1,000</span>
+                      <span class="Original-price">Rs 1700</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1" >Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item8">
+                  <img
+                    class="hp"
+                    src="image assets/home decor/card18.avif"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Bamboo Lamps</h5>
+                    <h4  class="company-name">Mitali Creation</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 6,000</span>
+                      <span class="Original-price">Rs 10,000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- category 2-->
+
+          <div class="category3 category">
+            <h2>Kitchen</h2>
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item9">
+                  <img
+                    class="hp"
+                    src="image assets/kitchen/card4.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Kitchen Accessories</h5>
+                    <h4  class="company-name">Krishna's Creation</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 1,000</span>
+                      <span class="Original-price">Rs 1400</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item10">
+                  <img
+                    class="hp"
+                    src="image assets/kitchen/card12.webp"
+                    class=""
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Kettel</h5>
+                    <h4  class="company-name">Geeta's Crafts</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 5,000</span>
+                      <span class="Original-price">Rs 900</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item11">
+                  <img
+                    class="hp"
+                    src="image assets/kitchen/card7.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Clay Pots</h5>
+                    <h4  class="company-name">Bhagvant's Clay Crafts</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 2,000</span>
+                      <span class="Original-price">Rs 6000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item12">
+                  <img
+                    class="hp"
+                    src="image assets/kitchen/card10.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Coconut Tea Pots</h5>
+                    <h4  class="company-name">Mishti's Creation</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 3,000</span>
+                      <span class="Original-price">Rs 5000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- category 3-->
+
+          <div class="category4 category">
+            <h2>Fashion</h2>
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item13">
+                  <img
+                    class="hp"
+                    src="image assets/fashion/fashion-card.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Beads Necklace</h5>
+                    <h4  class="company-name">Fizza's Fashion</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 1,000</span>
+                      <span class="Original-price">Rs 3000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item14">
+                  <img
+                    class="hp"
+                    src="image assets/fashion/card11.jpeg"
+                    class=""
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Fashionable Earrings</h5>
+                    <h4>Maya's Fashion</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 3,000</span>
+                      <span class="Original-price">Rs 5000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item15">
+                  <img
+                    class="hp"
+                    src="image assets/fashion/card10.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Joot Fashinable Bags</h5>
+                    <h4  class="company-name">Ramesh Handicrafts</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 2,000</span>
+                      <span class="Original-price">Rs 4,000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card"id="item16" >
+                  <img
+                    class="hp"
+                    src="image assets/fashion/juti.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Fancy Jutti</h5>
+                    <h4>Fizza Footwear</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 1,000</span>
+                      <span class="Original-price">Rs 3000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- category 4-->
+
+          <div class="category5 category">
+            <h2>Gifts</h2>
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item17">
+                  <img
+                    class="hp"
+                    src="image assets/gifts/card8.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Wooden showpeice</h5>
+                    <h4  class="company-name">Gori Wood Arts</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 5,000</span>
+                      <span class="Original-price">Rs 8000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card"id="item18">
+                  <img
+                    class="hp" style="object-fit:fill;"
+                    src="image assets/gifts/card3.webp"
+                    class=""
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Handicraft gift items</h5>
+                    <h4>Sumitra Gift's</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 3,000</span>
+                      <span class="Original-price">Rs 5000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card"id="item19">
+                  <img
+                    class="hp"
+                    src="image assets/gifts/card5.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Attractive Base</h5>
+                    <h4  class="company-name">Asha Giftstore</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 1,000</span>
+                      <span class="Original-price">Rs 3000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1 ">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item20">
+                  <img
+                    class="hp"
+                    src="image assets/gifts/card6.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Bamboo Showpeice</h5>
+                    <h4  class="company-name">Asha giftstore</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 3,000</span>
+                      <span class="Original-price">Rs 5000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- category 5-->
+
+          <div class="category6  category">
+            <h2>Paintings</h2>
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-3  item-container">
+                <div class="card" id="item21">
+                  <img
+                    class="hp"
+                    src="image assets/painting/card2.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Acrylic Painting</h5>
+                    <h4  class="company-name">John's Paints</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 6,000</span>
+                      <span class="Original-price">Rs 8000</span>
+                      <span class="discount">(40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item22">
+                  <img
+                    class="hp"
+                    src="image assets/painting/card4.jpg"
+                    class=""
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Small Paintings</h5>
+                    <h4  class="company-name">Dolly painter's</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 3,000</span>
+                      <span class="Original-price">Rs 5000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1 ">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3  item-container">
+                <div class="card"  id="item23">
+                  <img
+                    class="hp"
+                    src="image assets/painting/card1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Mandala</h5>
+                    <h4 class="company-name">Akansha's mandala art</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 1,000</span>
+                      <span class="Original-price">Rs 3,000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 item-container">
+                <div class="card" id="item24" >
+                  <img
+                    class="hp"
+                    src="image assets/painting/card5.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Cloth Painting</h5>
+                    <h4  class="company-name">Shree Govind Painter's</h4>
+                    <div class="price">
+                      <span class="current-price">Rs 6,000</span>
+                      <span class="Original-price">Rs 10,000</span>
+                      <span class="discount">( 40% OFF)</span>
+                    </div>
+                    <a href="#cart" class="btn btn1">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- category 6-->
+        </div>
+      </div>
+
+
+      <section class="container content-section" id="cart">
+        <h2 class="section-header"  style="margin: 4% 0px;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 600;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+        text-shadow: 2px 2px 2px #944E63;" >Cart</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+
+
+
+      <div class="article-div">
+        <article>
+          <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <div class="text-div">
+                  <h2 id="success">Success stories</h2>
+
+                  <div class="paragraph-div">
+                    "I recently purchased a handcrafted vase from Crafttt India,
+                    and I couldn't be happier with my purchase. The attention to
+                    detail and craftsmanship are truly remarkable. Each piece
+                    feels like it has a story to tell, and it adds a unique
+                    charm to my home decor. The customer service was
+                    exceptional, ensuring I had a smooth and delightful shopping
+                    experience. I highly recommend Crafttt India to anyone
+                    looking for beautiful, one-of-a-kind handmade items. I'll
+                    definitely be back for more!"
+                    
+                  <h4 class="name-div" style="font-weight: 800; margin-top: 2%">
+                    Mishti
+                  </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="text-div">
+                  <h2>Success stories</h2>
+
+                  <div class="paragraph-div">
+                    "I started creating handmade jewelry as a hobby while
+                    working a full-time job. With the support of Crafttt India ,
+                    I turned my passion into a thriving business. Within a year,
+                    my unique designs gained a loyal customer base, and I now
+                    runs my jewelry business full-time. my creations have been
+                    featured in local boutiques and online stores, making my
+                    dream a reality."
+
+                    <h4 class="name-div" style="font-weight: 800; margin-top: 2%">
+                      Sarah
+                    </h4>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="text-div">
+                  <h2>Success stories</h2>
+
+                  <div class="paragraph-div">
+                    Emily, a stay-at-home mom, discovered her talent for
+                    creating custom home decor items. With three young children,
+                    she needed a flexible way to contribute to her family's
+                    income. Emily joined [Website Name] and showcased her
+                    handmade items. The response was overwhelming. Within
+                    months, Emily's business grew, allowing her to balance her
+                    family life while pursuing her passion. Her story inspires
+                    many aspiring entrepreneurs."
+
+                    <h4 class="name-div" style="font-weight: 800; margin-top: 2%">
+                      Emily,
+                    </h4>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <section>
+      <div class="about-section" id="About-Us">
+        <h2> About Us</h2>
+
+        <div class="text-div">
+          <div class="paragraph-div" id="About">
+            The Crafttt India is a platform that aims to connect passionate small Vendors , Handcrafter ,Artist and who help in waste management  (who make their product  with natural elements  to sell their product without any artificial activity or product) with meaningful selling opportunities. It aims to empower  home business ,small  scale business owners ,handcrafting industries as well as reducing nature pollution for mass production of that product which increases the pollution and is not easily decomposable .Increase the production of natural products. 
+           Our vision has been extremely large, which is to Crafttt India through its handcrafts, while empowering artisanal talent to the forefront. We are committed to sustainability and work with natural materials across all categories that we serve.
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <footer >
+      <div class="contact-us" id="Contact-Us">
+        <h2>Get In Touch</h2>
+        <div class="section">
+          <form class="contact-form">
+            <div class="info d-flex">
+              <div class="info-1">
+                <label for="fname" >First name:</label><br />
+                <input type="text" class="input-txt" id="fname" name="fname" placeholder="John" required />
+              </div>
+              
+              <div>
+                <label for="lname">Last name:</label><br />
+                <input type="text"  class="input-txt"
+            id="lname" name="lname"  placeholder="Deo" required /><br />
+              </div>
+            </div>
+            
+  
+            <div class="info d-flex">
+              <div class="info-1">
+                <label for="fname" >Email</label><br />
+                <input type="email" class="input-txt" id="fname" name="fname" placeholder="example@gmail.com" required />
+              </div>
+              
+              <div>
+                <label for="lname">your-Query</label><br />
+                <textarea name="" id=""></textarea></div>
+            </div>
+          </form>
+      </div>
+
+      <div class="icon-section">
+        <a href="#"><i class="fa-brands fa-square-instagram"></i>Instagram</a>
+       <a href="#"><i class="fa-solid fa-phone"></i>0145-1234</a> 
+        <a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>   
+        <a href="#">  <i class="fa-brands fa-twitter"></i>twitter</a>   
+      </div>
+    </footer>
+
+    <script src="script/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </div>
+  </body>
+</html>
